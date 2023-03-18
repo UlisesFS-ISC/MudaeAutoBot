@@ -1,0 +1,57 @@
+{
+    "token":"NTMwMDI2MTQzNjI2MTY2Mjgy.GFj9m5.RP3-AyGuJR8qqUr20vS9D_TdYbs0OgekWMcPAA",
+    "channel_ids":[
+       "1085879992237428797"
+    ],
+    "slash_ids":[
+       "1085879992237428797"
+    ],
+    "slash_guild_ids":[
+       "1085879992237428797"
+    ],
+    "claim_delay":1,
+    "kak_delay":9,
+    "use_emoji":"<:hearts>",
+    "roll_this":"wg",
+    "rolling":"False",
+    "slash_rolling":"False",
+    "pkmrolling":"False",
+    "series_list":[
+       "Mortal kombat",
+       "Genshin Impact",
+       "Granblue Fantasy",
+       "Fate",
+       "Blue Archive",
+       "Love Live",
+       "Idolmaster",
+       "Final Fantasy",
+       "Pokédex",
+       "Demon compendium"
+    ],
+    "namelist":[
+ 
+    ],
+    "emoji_list":[
+       "kakera",	
+       "kakeraT",
+       "kakeraG",
+       "kakeraY",
+       "kakeraO",
+       "kakeraR",
+       "kakeraW",
+       "kakeraL"
+    ],
+    "soulemoji_list":[
+       "kakeraO",
+       "kakeraR",
+       "KakeraW",
+       "KakeraL"
+    ],
+    "min_kak":500,
+    "Last_True":"True",
+    "last_claim_min": 61,
+    "min_kak_last_min": 10
+ }
+ 
+ 
+ 

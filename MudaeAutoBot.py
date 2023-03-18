@@ -303,6 +303,7 @@ def next_reset(channel):
     return t+(3600-((t-offset)%3600))
 
 def poke_roll(tide):
+    return
     logger.debug(f"Pokemon Rolling Started in channel {tide}. (If you would like this in a different channel, please configure the desired channel ID as the first in your list)")
     tides = str(tide)
     if tide not in channel_settings:
@@ -320,6 +321,7 @@ def poke_roll(tide):
         pwait = 0
         
 def daily_roll(tide):
+    return
     logger.debug(f"Daily Rolling Started in channel {tide}. (If you would like this in a different channel, please configure the desired channel ID as the first in your list)")
     tides = str(tide)
     if tide not in channel_settings:
@@ -526,6 +528,7 @@ def on_message(resp):
                 snipe_delay = get_snipe_time(int(channelid),roller,content)
                 charpop = m['embeds'][0]
                 charname = charpop["author"]["name"]
+                print(charname)
                 chardes = charpop["description"]
                 charcolor = int(charpop['color'])
 
@@ -771,6 +774,11 @@ def on_message(resp):
     global ready
  
     if resp.event.ready_supplemental and not ready:
+        print(bot.gateway)
+        print(help(discum))
+        print(bot.gateway.READY)
+        print(bot.gateway.session.user)
+        print('getting user info')
         ready = bot.gateway.READY
         user = bot.gateway.session.user
         bot.gateway.request.searchSlashCommands(str(ghids[0]), limit=100, command_ids=[])

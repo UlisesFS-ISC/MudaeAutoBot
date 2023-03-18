@@ -1,26 +1,28 @@
 {
-   "token":"1",
+   "token":"",
    "channel_ids":[
-	  111111111111111
+      "1075850761382141952"
    ],
    "slash_ids":[
-	  11111111111111
+	  "1075850761382141952"
    ],
    "slash_guild_ids":[
-      111111111111111
+    "1075850761382141952"
    ],
-   "claim_delay":8,
-   "kak_delay":9,
-   "use_emoji":"<:keqing_love:795077041761288214>",
+   "claim_delay":1,
+   "kak_delay":0,
+   "use_emoji":"<:hearts:>",
    "roll_this":"wg",
-   "rolling":"True",
-   "slash_rolling":"True",
-   "pkmrolling":"True",
+   "rolling":"False",
+   "slash_rolling":"False",
+   "pkmrolling":"False",
    "series_list":[
-      "Honkai Impact 3rd"
    ],
    "namelist":[
-      "Raiden Mei"
+      "Yor Forger",
+      "Yoko Littner",
+      "Miyamoto Musashi",
+      "Kurisu Makise"
    ],
    "emoji_list":[
 	  "kakera",	
